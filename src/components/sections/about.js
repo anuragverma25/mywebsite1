@@ -125,7 +125,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Agile Business Analysis',
+    'JIRA,Confluence',
+    'Process Mapping and Optimization',
+    'Stakeholder Management',
+    'Requirement Analysis and Documentation',
+    'SQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +142,25 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Anurag Verma, and I am passionate about transforming business needs
+              into technical solutions. My journey began as a software engineer at a world leading{' '}
+              <a href="https://www.cgi.com/en">IT and business consulting company</a> , where I
+              honed my coding skills and developed a solid technical foundation. This experience
+              ignited my interest in business analysis, leading me to pivot my career towards
+              bridging the gap between business strategy &amp; technology.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast-forward to today, and I’ve had the privilege of working as a Business Analyst at
+              leading companies like{' '}
+              <a href="https://www.lowes.com/">FORTUNE® 50 home improvement </a> company and a
+              leading{' '}
+              <a href="https://www.aptean.com/en-US">provider of industry-specific software.</a> My
+              focus is on leveraging agile methodologies to deliver impactful tech solutions,
+              optimize business processes, and drive positive outcomes.
             </p>
 
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few skills and tools I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">

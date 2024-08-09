@@ -60,28 +60,36 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Anurag Verma.</h2>;
+  const three = (
+    <h3 className="big-heading">
+      Transforming business visions into innovative tech solutions, one sprint at a time..
+    </h3>
+  );
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        I'm dynamic Business Analyst with an MBA from
+        <a
+          href="https://www.aston.ac.uk/bss/aston-business-school"
+          target="_blank"
+          rel="noreferrer">
+          Aston Business School&nbsp;
         </a>
-        .
+        and extensive experience in the tech industry. Combining my background as a Software
+        Engineer with a deep understanding of business strategy, I excel at turning complex
+        challenges into innovative solutions. Dive in to learn how I blend technical prowess with
+        business acumen to drive success in every project.
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="mailto:anuragverma01994@gmail.com"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Get in Touch!
     </a>
   );
 
